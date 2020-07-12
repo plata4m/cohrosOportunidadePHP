@@ -11,9 +11,9 @@ Faça o download e extraia em um diretório onde rode projeto PHP. Você deve te
 
 Se ainda não tem um ambiente, segue os links para download.
 
-_Para baixar o Apache  [http://apache.org/].__
-_Para baixar o PHP  [https://www.php.net/downloads.php].__
-_Para baixar o MySql [https://www.mysql.com/downloads/].__
+_Para baixar o Apache  [http://apache.org/].<br>
+_Para baixar o PHP  [https://www.php.net/downloads.php].<br>
+_Para baixar o MySql [https://www.mysql.com/downloads/].<br>
 
 
 Imagem de como o projeto se encontra organizado. 
