@@ -9,8 +9,13 @@ A arquitetura segue o modelo de funcionamento do React e VUE. Onde as páginas .
 
 Faça o download e extraia em um diretório onde rode projeto PHP. Você deve ter um ambiente já instalado com Apache, PHP e MySql.
 
-_Você pode baixar o Apache no site [http://apache.org/]._
-  
+Se ainda não tem um ambiente, segue os links para download.
+
+_Para baixar o Apache  [http://apache.org/]._
+_Para baixar o PHP  [https://www.php.net/downloads.php]._
+_Para baixar o MySql [https://www.mysql.com/downloads/]._
+
+
 Imagem de como o projeto se encontra organizado. 
 ![alt text](https://github.com/plata4m/cohrosSistemaParaConcorrerVagaPHP/blob/master/arquitetura.png?raw=true)
 
