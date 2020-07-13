@@ -1,13 +1,3 @@
-/*$( document ).ready(function() {
-    if (localStorage.user != undefined) {
-        $(".divCenter_login").hide();
-        $(".divCenter_list").fadeIn();    
-        setTimeout(function(){ 
-            $("#logged").html(localStorage.getItem("user"));
-        }, 1000);
-    }   
-});*/
-
 function Login(){
     if(!$("#user").val()){
         showAlert("Type user!");
