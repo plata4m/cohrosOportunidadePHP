@@ -1,1 +1,108 @@
+<link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
+<script src="js/jquery.mask.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="scheduler/scheduler.js"></script>
 
+<div class="popAlert">
+    <table width="90%" height="100">
+        <tr>
+            <td width="50"><img src="image/icoalertgd.png" id="imgpop" style="margin-left: 20px;"></td>
+            <td align="center"><div id="msgPop"></div></td>
+        </tr>
+    </table>
+</div>
+
+<link rel="stylesheet" type="text/css" href="scheduler/scheduler.css">
+
+<div id="logo">
+    <img src="image/logo1.png" width="200" height="50">
+    <div id="logged" class="inLine"></div>
+    <div class="btnDelete" style="float: right;margin-right: 85px;margin-top: 15px;" onclick="ExitApp();">Exit</div>
+</div>
+
+<div class="divCenter_list">
+    <div>
+        <form id="form1" id="name">
+        <div class="titlePage">Register Contact</div>
+        
+        <div id="formRegister" >
+            <div class="boxForm">
+                Name *<br>
+                <input type="text" id="name" class="inputIndex" style="width: 300px;">                        
+            </div>
+            <div class="boxForm">
+                E-mail * <br>
+                <input type="text" id="email" class="inputIndex" style="width: 200px;">                        
+            </div>
+            <div class="boxForm">
+                Adress <br>
+                <input type="text" id="adress" class="inputIndex" style="width: 300px;">                        
+            </div>            
+            <div class="boxForm">
+                Number  <br>
+                <input type="text" id="number" class="inputIndex" style="width: 50px;">                        
+            </div>            
+            <div class="boxForm">
+                Neighborhood  <br>
+                <input type="text" id="neighborhood" class="inputIndex" style="width: 100px;">                        
+            </div>            
+            <div class="boxForm">
+                Zip code <br>
+                <input type="text" id="zipcode" class="inputIndex" style="width: 100px;">                        
+            </div>            
+            <div class="boxForm">
+                Primary phone  *<br>
+                <input type="text" id="primaryphone" class="inputIndex" >                        
+            </div>
+            <div class="boxForm">
+                Watsapp
+                <div class="space5px"></div>
+                <label class="switch">
+                    <input type="checkbox" value="watsapp" name="watsapp" id="watsapp">
+                    <span class="slider round"></span>
+                </label>
+             </div> 
+             <br>
+             <div class="boxForm">
+                <img src="scheduler/addphone.png" onclick="addPhone()">
+                <div id="new_chq"></div>                
+                <input type="hidden" value="1" id="total_chq">
+            </div>               
+            <div class="space5px"></div>
+            <div class="space5px"></div> 
+            <div class="btnInsert" id="btnInsert" onclick="insertContact();">Insert Contact</div>
+            <div class="btnCancel" id="btnCancel" onclick="CancelEdit();" style="display: none;">Cancel</div>
+            <div class="btnInsert" id="btnSaveEdit" onclick="saveEditContact();" style="display: none;">Save Edit</div>
+            
+            <hr>
+            <div class="titlePage">Contact List</div>
+            <div class="space5px"></div>
+            <div class="space5px"></div>
+            
+            <div>
+                <table id="tblContact" width="98%" align="center" class="display wrapper" >
+                    <thead>	
+                        <tr height="40" style="background-color: #E2E2E2;">
+                            <th class="titleTable">Name</th>
+                            <th class="titleTable">E-mail</th>
+                            <th class="titleTable">Phone</th>
+                            <th class="titleTable">Watsapp</th>
+                            <th class="titleTable">Other Phones</th>
+                            <th class="titleTable">Adress</th>
+                            <th class="titleTable">Number</th>
+                            <th class="titleTable">Neighborhood</th>
+                            <th class="titleTable">Zip code</th>
+                            <th class="titleTable">Actions</th>
+                        </tr>
+                    </thead>
+                     <tbody id="listContact" >
+                    </tbody>	 
+                </table>
+            </div>
+
+        </div>
+    </form>
+    </div>   
+    
+</div>
+<div class="space5px" style="height: 50px;"></div>

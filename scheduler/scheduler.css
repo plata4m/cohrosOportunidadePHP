@@ -1,0 +1,292 @@
+body {
+    background-color: #b6b6b6;
+}
+
+.divCenter_list {    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    /*display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    
+     display: inline;*/
+    
+
+   
+    background-color: #F5F5F5;
+
+    border-radius: 5px;
+
+    height: auto;
+    width: 90%;
+    height: auto;
+    /*min-height: 700px;*/ 
+
+
+    padding: 10px;
+
+    /*display: none;*/
+}
+
+table.dataTable thead {
+    background-color: #FFF;
+}
+
+.titleInput {
+    color: #666;
+    font-size: 14px;
+}
+
+.titlePage {
+    color: rgb(78, 69, 69);
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.titleTable{
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+}
+.contentTable{
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;   
+}
+
+.btnEdit {
+    width: 50px; 
+    height: 25px; 
+    line-height: 25px; 
+    background-color: #0D9891; 
+    border-radius: 5px; 
+    color: #fff; 
+    text-align: center;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: inline-block;
+}
+.btnInsert {
+    display: inline-block;
+    width: 150px; 
+    height: 30px; 
+    line-height: 30px; 
+    background-color: #0D9891; 
+    border-radius: 3px; 
+    color: #fff; 
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btnDelete {
+    width: 50px; 
+    height: 25px; 
+    line-height: 25px; 
+    background-color: #F44336; 
+    border-radius: 5px; 
+    color:#FFF; 
+    text-align: center;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: inline-block;
+}
+
+.btnCancel {
+    display: inline-block;
+    width: 150px; 
+    height: 30px; 
+    line-height: 30px; 
+    background-color: #3366CC; 
+    border-radius: 3px; 
+    color: #fff; 
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.formRegister {
+    display: inline-block;
+    width: 100%;
+}
+
+.boxForm {
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;   
+    padding: 10px;
+}
+ 
+input:focus { 
+    outline: none !important;
+    border-color: #a1a1a1;
+    box-shadow: 0 0 5px#0D9891;
+}
+
+hr {
+    border-top: 1px solid #E5E5E5;
+}
+
+
+#logo {
+    position: relative;
+    margin-left:  70px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+#week {
+    position: relative;
+    color:#FFF;
+    top: 30px;
+    display: block;
+}
+
+.txtLabel{
+    position: relative;
+    color:#999;
+    top: 45px;
+    left: 40px;
+    font-size: 15px;
+    display: block;
+}
+.inputIndex {
+    border: none;
+    background-color: #E5E5E5;
+    height: 31px;
+    width: 152px;
+    border-radius: 5px;
+}
+.space5px{
+    height: 5px;
+}
+
+.button {
+    position: relative;
+    border-radius: 5px;
+    background-color: #0D9891;
+    color: #FFF;
+    width: 55px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    display: block;
+    left: 50px;
+    cursor: pointer;
+}
+
+
+#logged {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #666;
+    font-size: 14px;
+}
+
+.inLine {
+    display:inline;"
+}
+
+.userl {
+    position: relative;
+    top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* TOOGLE */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    top: -3px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #40CCC5;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #40CCC5;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  /* TOOGLE */
