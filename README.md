@@ -14,7 +14,7 @@ _Usuário: visitante_
 _Senha: 123_
 
 
-A arquitetura segue o modelo de funcionamento do React e VUE. Onde as páginas .html contém apenas 'div' em seu conteúdo, sendo carregadas na 'div' #root na página index.html.
+A arquitetura segue o modelo de funcionamento do React e VUE. Onde as páginas .html contém apenas 'div' em seu conteúdo, sendo carregadas na 'div' #root na página index.html de forma modularizada sobre arquitetura REST com microserviços no formato Json.
    
 ## Basta baixar o projeto e rodar
 
