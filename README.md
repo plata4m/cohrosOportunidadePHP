@@ -3,7 +3,7 @@
 Sistema desenvolvido para concorrer a vaga de desenvolvedor PHP para empresa COHROS.
 <br />
 
-A arquitetura segue o modelo de funcionamento do React e VUE. Onde as páginas .html contém apenas <div> em seu conteúdo, sendo carregadas na <div> #root na página index.html.
+A arquitetura segue o modelo de funcionamento do React e VUE. Onde as páginas .html contém apenas 'div' em seu conteúdo, sendo carregadas na 'div' #root na página index.html.
    
 ## Basta baixar o projeto e rodar
 
