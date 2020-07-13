@@ -18,7 +18,7 @@ _Para baixar o MySql [https://www.mysql.com/downloads/]._<br>
 <br />
 
 Imagem de como o projeto se encontra organizado. 
-![alt text](https://github.com/plata4m/cohrosSistemaParaConcorrerVagaPHP/blob/master/arquitetura.png?raw=true)
+![alt text](https://github.com/plata4m/cohrosSistemaParaConcorrerVagaPHP/blob/master/arquitetura1.png?raw=true)
 
 <br />
 <br />
