@@ -7,13 +7,11 @@ Oprojeto está on-line para testes na Url abaixo:<br>
 _https://www.vagaaqui.com.br/cohrosTesteOportunidadePHP/index.html_
 
 Usuários de acesso:<br>
-Usuário: _handerson_
-Senha: _123_<br><br>
+_Usuário: handerson_
+_Senha: 123_
 
-<br>
-
-Usuário: _visitante_<br>
-Senha: _123_<br>
+_Usuário: visitante_
+_Senha: 123_
 
 
 A arquitetura segue o modelo de funcionamento do React e VUE. Onde as páginas .html contém apenas 'div' em seu conteúdo, sendo carregadas na 'div' #root na página index.html.
