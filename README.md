@@ -6,6 +6,17 @@ Sistema desenvolvido para concorrer a vaga de desenvolvedor PHP para empresa COH
 Oprojeto está on-line para testes na Url abaixo:<br>
 _https://www.vagaaqui.com.br/cohrosTesteOportunidadePHP/index.html_
 
+Usuários de acesso:
+Usuário: _handerson_
+Senha: _123_
+
+Usuário: _cohros_
+Senha: _123_
+
+Usuário: _visitante_
+Senha: _123_
+
+
 A arquitetura segue o modelo de funcionamento do React e VUE. Onde as páginas .html contém apenas 'div' em seu conteúdo, sendo carregadas na 'div' #root na página index.html.
    
 ## Basta baixar o projeto e rodar
