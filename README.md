@@ -3,7 +3,7 @@
 Sistema desenvolvido para concorrer a vaga de desenvolvedor PHP para empresa COHROS.
 <br />
 
-Oprojeto está on-line na Url abaixo:<br>
+Oprojeto está on-line para testes na Url abaixo:<br>
 _https://www.vagaaqui.com.br/cohrosTesteOportunidadePHP/index.html_
 
 A arquitetura segue o modelo de funcionamento do React e VUE. Onde as páginas .html contém apenas 'div' em seu conteúdo, sendo carregadas na 'div' #root na página index.html.
