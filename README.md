@@ -5,15 +5,15 @@ Sistema desenvolvido para concorrer a vaga de desenvolvedor PHP para empresa COH
 
 A arquitetura segue o modelo de funcionamento do React e VUE. Onde as páginas .html contém apenas <div> em seu conteúdo, sendo carregadas na <div> #root na página index.html.
    
-## Usage example
+## Basta baixar o projeto e rodar
 
 Faça o download do projeto.zip e extraia em um diretório onde rode projetos PHP. Você deve ter um ambiente já instalado com Apache, PHP e MySql.
 
 Se ainda não tem um ambiente, segue os links para download.
 
-_Para baixar o Apache  [http://apache.org/].<br>
-_Para baixar o PHP  [https://www.php.net/downloads.php].<br>
-_Para baixar o MySql [https://www.mysql.com/downloads/].<br>
+_Para baixar o Apache  [http://apache.org/]._<br>
+_Para baixar o PHP  [https://www.php.net/downloads.php]._<br>
+_Para baixar o MySql [https://www.mysql.com/downloads/]._<br>
 <br />
 <br />
 
