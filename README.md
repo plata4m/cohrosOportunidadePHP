@@ -7,12 +7,11 @@ Oprojeto está on-line para testes na Url abaixo:<br>
 _https://www.vagaaqui.com.br/cohrosTesteOportunidadePHP/index.html_
 
 Usuários de acesso:<br>
-Usuário: _handerson_<br>
+Usuário: _handerson_
 Senha: _123_<br><br>
 
-Usuário: _cohros_<br>
-Senha: _123_<br>
-<br><br>
+<br>
+
 Usuário: _visitante_<br>
 Senha: _123_<br>
 
