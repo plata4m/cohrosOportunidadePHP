@@ -1,0 +1,147 @@
+.divCenter_login {
+    margin-top: 200px;
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.box {
+    width: 235px;
+    height: 235px;
+}
+
+.boxLeft {
+    text-align: center;
+    display: inline;
+    background-color: #40CCC5;    
+}
+
+.boxRigth {
+    display: inline;
+    background-color: #F5F5F5;/* #E9E9E9;    */
+}
+
+#logo {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#week {
+    position: relative;
+    color:#FFF;
+    top: 30px;
+    display: block;
+}
+
+#day {
+    position: relative;
+    color:#FFF;
+    font-size: 130px;
+    display: block;
+    top: 25px;
+}
+
+#year {
+    position: relative;
+    color:#FFF;
+    top: 30px;
+    display: block;
+}
+
+#login {
+    position: relative;
+    color:#666;
+    top: 30px;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+.txtLabel{
+    position: relative;
+    color:#999;
+    top: 45px;
+    left: 40px;
+    font-size: 15px;
+    display: block;
+}
+.inputIndex {
+    border: none;
+    background-color: #E5E5E5;
+    height: 31px;
+    width: 152px;
+    border-radius: 5px;
+}
+.space5px{
+    height: 5px;
+}
+
+.button {
+    position: relative;
+    border-radius: 5px;
+    background-color: #0D9891;
+    color: #FFF;
+    width: 55px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    display: block;
+    left: 50px;
+    cursor: pointer;
+}
+
+.alert{
+    display:none ;
+    position: relative;
+    background-color: #FFCC66;
+    width: 235px;
+    height: 36px;
+    margin-top: 60px;
+    font-size: 14px;
+    z-index: -1;
+    text-align: center;
+
+}
+
+
+#msgAlert {
+    padding-left: 10px;
+    margin-top: -5px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.header {
+    display: flex;
+    display: inline;
+    width: 100%;
+}
+
+#logged {
+    margin-top: -10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.inLine {
+    display:inline;"
+}
+
+.userl {
+    position: relative;
+    top: 2px;
+}
+
+

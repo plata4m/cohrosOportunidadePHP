@@ -1,1 +1,32 @@
+<script src="login/login.js"></script>
+<link rel="stylesheet" type="text/css" href="login/login.css">
 
+<div id="logo"><img src="image/logo1.png"></div>
+
+<div class="divCenter_login">
+    <div class="boxLeft box">
+        <span id="week"></span>
+        <span id="day"></span>
+        <span id="year"></span>
+    </div>
+    <div class="boxRigth box">
+        <span id="login">Login</span>
+        <span class="txtLabel">User</span>
+        <span class="txtLabel"><input type="text" id="user" class="inputIndex"></span>
+        <div class="space5px"></div>
+        <span class="txtLabel">Password</span>
+        <span class="txtLabel"><input type="password" id="pass" class="inputIndex"></span>
+        <div class="space5px"></div><div class="space5px"></div>
+        <span class="txtLabel"><div class="button" value="Enter" onclick="Login();">Enter</div></span>
+        <div class="alert">
+            <table align="center">
+                <tr>
+                    <td><img src="image/icoalert.png" style="margin-top: 3px;"></td>
+                    <td><span id="msgAlert"></span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="login/date.js"></script>
