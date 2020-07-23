@@ -1,6 +1,6 @@
 # Agenda pessoal On-line
 
-Sistema desenvolvido para concorrer a vaga de desenvolvedor PHP para empresa COHROS.
+Sistema desenvolvido em PHP com HTML e JavaScript.
 <br />
 
 Oprojeto está on-line para testes na Url abaixo:<br>
